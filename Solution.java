@@ -14,8 +14,10 @@ class Node<T> {
 }
 
 class Solution {
+  // This is a linear traversal
   public static List<String> linkedListValues(Node<String> head) {
     ArrayList<String> result = new ArrayList<>();
+
     Node<String> temp = head;
     while(temp != null){
       result.add(temp.val);
